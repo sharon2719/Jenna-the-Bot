@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <title>Jenna The Chatbot</title>
+   
+</head>
+<body>
+    <div class="selection">
+        <div class="flex"></div>
+        <div>
+            <h1>JENNA THE CHAT BOT</h1>
+        </div>
+
+        <div id="botbox">
+            <div class="friend">
+
+                <div class="user">
+                    <img id="admin" src="./images/DSC_0312 bts.jpg">
+                </div>
+                <p class="message" id="result"></p>
+                <div id="warn"></div>
+            </div>
+
+        <div class="input">
+            
+            <div class="form">
+                <textarea id="response" placeholder="Enter your response"></textarea>
+            </div>
+            
+        </div>  
+         
+        </div>
+        <button type="submit" id="submit" onclick="submitMessage();">Reply</button>
+        
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
